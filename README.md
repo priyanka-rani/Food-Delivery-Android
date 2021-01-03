@@ -1,4 +1,4 @@
-# Grocery Android App
+# Food Delivery Android App
 This is a sample app that uses Android Architecture Components and JetPack to build a demo Grocery App.
 
 **NOTE:** It is a relatively more complex and complete example so if you are not familiar with Architecture Components, you are highly recommended to check other examples in this repository first.
