@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.myapp.grocerli.ui.order.OrderViewModel" />
+            type="com.pri.fooddelivery.ui.order.OrderViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout

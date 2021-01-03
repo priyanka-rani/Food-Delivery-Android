@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Grocerli</string>
+    <string name="app_name">Food Delivery</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="menu_profile">Profile</string>
@@ -12,8 +12,8 @@
     <string name="menu_orders">Your Orders</string>
     <string name="add_to_cart">Add to Cart</string>
     <string name="place_order">Place Order</string>
-    <string name="total_price_place_holder">Total Price: Rs. %.2f</string>
-    <string name="price_place_holder">Rs. %.2f</string>
+    <string name="total_price_place_holder">Total Price: USD %.2f</string>
+    <string name="price_place_holder">USD %.2f</string>
     <string name="cart">Cart</string>
     <string name="name">Name</string>
     <string name="contact">Contact</string>
@@ -25,5 +25,5 @@
     <string name="signup_failed">User Already Exist, Signup failed</string>
     <string name="profile_update">Profile Update</string>
     <string name="profile_update_failed">Profile Update Failed!</string>
-    <string name="currency">Rs.</string>
+    <string name="currency">USD</string>
 </resources>

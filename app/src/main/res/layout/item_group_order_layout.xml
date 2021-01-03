@@ -7,7 +7,7 @@
 
         <variable
             name="data"
-            type="com.myapp.grocerli.data.OrderItem" />
+            type="com.pri.fooddelivery.data.OrderItem" />
 
     </data>
 

@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.myapp.grocerli.ui.profile.ProfileViewModel" />
+            type="com.pri.fooddelivery.ui.profile.ProfileViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -61,7 +61,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPersonName"
-                        android:text="@={viewModel.profile.name}" />
+                        android:text="@={viewModel.name}" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -81,9 +81,27 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textEmailAddress"
-                        android:text="@={viewModel.profile.email}" />
+                        android:text="@={viewModel.email}" />
                 </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/tilPassword"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:hint="@string/password"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tilEmail">
 
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:text="@={viewModel.pass}" />
+                </com.google.android.material.textfield.TextInputLayout>
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/tilContact"
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -94,14 +112,14 @@
                     android:layout_marginEnd="8dp"
                     android:hint="@string/contact"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tilEmail">
+                    app:layout_constraintTop_toBottomOf="@id/tilPassword">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/etContact"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="phone"
-                        android:text="@={viewModel.profile.contact}" />
+                        android:text="@={viewModel.contact}" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -122,7 +140,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="textPostalAddress"
-                        android:text="@={viewModel.profile.address}" />
+                        android:text="@={viewModel.address}" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -142,7 +160,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="number"
-                        android:text="@={viewModel.profile.category}" />
+                        android:text="@={viewModel.category}" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <Button
@@ -152,6 +170,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
+                    android:enabled="@{viewModel.enableUpdate(viewModel.name,viewModel.email, viewModel.pass, viewModel.contact, viewModel.address, viewModel.category)}"
                     android:onClick="@{()->viewModel.updateUser()}"
                     android:text="@string/update"
                     app:layout_constraintStart_toStartOf="parent"

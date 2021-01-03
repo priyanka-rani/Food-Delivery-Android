@@ -1,0 +1,170 @@
+[
+  {
+    "product_category": "Pizza",
+    "product_code": "301",
+    "product_name": "BBQ Chicken Classic",
+    "product_description": "Finely cut chicken breast pieces blended in BBQ flavored sauce topped with red onion rings and fresh garden capsicum,mushroom and black olive",
+    "product_price": 755.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "302",
+    "product_name": "Chicken Alfredo",
+    "product_description": "Finely cut chicken breast pieces topped with red onion rings and mozarella cheese",
+    "product_price": 770.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "303",
+    "product_name": "Chicken Fajita",
+    "product_description": "Succulent pieces of chicken cooked with fajita spices,topped with green capsicum,fresh onions,black olives,cilantro and fresh mozarella cheese",
+    "product_price": 773.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "304",
+    "product_name": "Beef Steak",
+    "product_description": "Beef Steak Pizza is flavored with Beef Steak sauce and topped with sliced Beef Steak",
+    "product_price": 755.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "305",
+    "product_name": "Beef Mighty Meat",
+    "product_description": "With tons of pepperoni,Italian sausage,beef and loads of cheddar and mozzarella cheese on your favorite crust",
+    "product_price": 755.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "306",
+    "product_name": "Beef Pepperoni",
+    "product_description": "Premium pizza smothered with loads of pepperoni and assorted with two layers of 100% pure mozzarella cheese",
+    "product_price": 755.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "307",
+    "product_name": "Beef Zesty Hot",
+    "product_description": "It is a kind of pizza for the spice lovers,blended with loads of spice,tasty beef,finely cut onion,tomatoes, green chili and tons of mozzarella cheese",
+    "product_price": 776.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "308",
+    "product_name": "Classic Veggie",
+    "product_description": "Pizza made with fresh selected vegetables blended in fresh onion,mushroom,capsicum,tomato and black olives",
+    "product_price": 740.00
+  },
+  {
+    "product_category": "Pizza",
+    "product_code": "309",
+    "product_name": "Veggie Supreme",
+    "product_description": "A special selection of freshly prepared topping including savory onions,baby corn,green capsicum,diced tomatoes and mushroom topped with two layers of mozzarella,jalapeno and black olives",
+    "product_price": 747.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "310",
+    "product_name": "Kani Mayo",
+    "product_description": "Crab meat with mayo",
+    "product_price": 350.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "311",
+    "product_name": "Iqura",
+    "product_description": "Salmon roe",
+    "product_price": 560.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "312",
+    "product_name": "Chuka Wakame",
+    "product_description": "Seaweed",
+    "product_price": 260.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "313",
+    "product_name": "Tobikko",
+    "product_description": "Flying fish roe",
+    "product_price": 310.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "314",
+    "product_name": "Chuka Kurage",
+    "product_description": "Jellyfish",
+    "product_price": 260.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "315",
+    "product_name": "Chuka Chinmi",
+    "product_description": "Scallop",
+    "product_price": 260.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "316",
+    "product_name": "Hamachi",
+    "product_description": "Yellow tail tuna",
+    "product_price": 380.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "317",
+    "product_name": "Ebi",
+    "product_description": "Cooked prawn",
+    "product_price": 350.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "318",
+    "product_name": "Aburi Hamachi",
+    "product_description": "Half boiled yellow tail",
+    "product_price": 380.00
+  },
+  {
+    "product_category": "Sushi",
+    "product_code": "319",
+    "product_name": "Salmon Mentai",
+    "product_description": "Cooked salmon with cod roe",
+    "product_price": 380.00
+  },
+  {
+    "product_category": "Drinks",
+    "product_code": "320",
+    "product_name": "7up 250 ml",
+    "product_price": 25.00,
+    "product_description": "In Stock"
+  },
+  {
+    "product_category": "Drinks",
+    "product_code": "321",
+    "product_name": "Cold Coffee",
+    "product_price": 60.00,
+    "product_description": "In Stock"
+  },
+  {
+    "product_category": "Drinks",
+    "product_code": "322",
+    "product_name": "Pepsi 250 ml",
+    "product_price": 16.00,
+    "product_description": "In Stock"
+  },
+  {
+    "product_category": "Drinks",
+    "product_code": "323",
+    "product_name": "Slice 250 ml",
+    "product_price": 18.00,
+    "product_description": "In Stock"
+  },
+  {
+    "product_category": "Drinks",
+    "product_code": "324",
+    "product_name": "Pakola Flavoured Milk",
+    "product_price": 40.00,
+    "product_description": "In Stock"
+  }
+]

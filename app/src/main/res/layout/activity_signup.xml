@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.myapp.grocerli.ui.signup.SignupViewModel" />
+            type="com.pri.fooddelivery.ui.signup.SignupViewModel" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
