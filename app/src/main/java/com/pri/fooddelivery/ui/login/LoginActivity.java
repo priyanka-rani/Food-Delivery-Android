@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
                         new Handler().postDelayed(() -> {
                             if(resource.getData() == null)
                                 Snackbar.make(binding.getRoot(),R.string.invalid_email_pass, Snackbar.LENGTH_LONG).show();
-                        }, 1000);
+                        }, 200);
                     }
 
 
