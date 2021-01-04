@@ -29,7 +29,7 @@ class ProfileViewModel @ViewModelInject constructor(private val profileRepositor
         profile.id = profileLiveData.value?.id?:-1
         profile.contact = contact.value
         profile.address = address.value
-        profile.category = category.value
+        profile.category = "0"
 
         _updateProfile.value = profile
     }

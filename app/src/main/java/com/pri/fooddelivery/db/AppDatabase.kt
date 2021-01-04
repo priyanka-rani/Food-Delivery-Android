@@ -21,7 +21,7 @@ import com.pri.fooddelivery.workers.CartDatabaseWorker
             CartItem::class,
             OrderItem::class
         ],
-        version = 12,
+        version = 13,
         exportSchema = false
 )
 @TypeConverters(Converters::class)

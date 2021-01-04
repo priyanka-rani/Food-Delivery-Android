@@ -69,7 +69,7 @@ class ProfileRepository @Inject constructor(
         preferenceHelper.loginUser(loggedinId)
     }
 
-    fun insertUser(profile: Profile) = profileDao.insert(profile)
+    suspend fun insertUser(profile: Profile) = profileDao.insert(profile)
 
     suspend fun updateUser(profile: Profile)=
         profileDao.update(profile)

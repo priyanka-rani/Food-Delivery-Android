@@ -28,7 +28,7 @@ class SignupViewModel @ViewModelInject constructor(private val profileRepository
         val profile = Profile(name.value, email.value, pass.value?.let { Utilities.encodeToBase64(it) })
         profile.contact = contact.value
         profile.address = address.value
-        profile.category = category.value
+        profile.category = "0"
 
         _signup.value = profile
     }
