@@ -51,17 +51,13 @@ public class ProductListAdapter extends RecyclerView.Adapter<ProductListAdapter.
         public ViewHolder(ItemProductBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
-            binding.btAddToCard.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    itemClickListener.onItemClick(getItem(getAdapterPosition()));
-                }
-            });
         }
 
         public void setData(Product product) {
-            if (product != null)
+            if (product != null) {
                 binding.setData(product);
+                binding.btAddToCard.setOnClickListener(v -> itemClickListener.onItemClick(product));
+            }
         }
     }
 

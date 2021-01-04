@@ -53,27 +53,26 @@ public class CartAdapter extends ListAdapter<CartItem, CartAdapter.ViewHolder> {
         public ViewHolder(ItemCartBinding binding) {
             super(binding.getRoot());
             this.binding = binding;
-            binding.btDelete.setOnClickListener(v -> itemClickListener.onItemDelete(getItem(getAdapterPosition())));
-            binding.tilCount.setEndIconOnClickListener(v -> {
-                CartItem item = getItem(getAdapterPosition());
-                if (item.getCount() < 10) {
-                    item.setCount(item.getCount() + 1);
-                    itemClickListener.onItemUpdate(item);
-                }
-
-            });
-            binding.tilCount.setStartIconOnClickListener(v -> {
-                CartItem item = getItem(getAdapterPosition());
-                if (item.getCount() > 1) {
-                    item.setCount(item.getCount() - 1);
-                    itemClickListener.onItemUpdate(item);
-                }
-            });
         }
 
         public void setData(CartItem cartItem) {
-            if (cartItem != null)
+            if (cartItem != null) {
                 binding.setData(cartItem);
+                binding.btDelete.setOnClickListener(v -> itemClickListener.onItemDelete(cartItem));
+                binding.tilCount.setEndIconOnClickListener(v -> {
+                    if (cartItem.getCount() < 10) {
+                        cartItem.setCount(cartItem.getCount() + 1);
+                        itemClickListener.onItemUpdate(cartItem);
+                    }
+
+                });
+                binding.tilCount.setStartIconOnClickListener(v -> {
+                    if (cartItem.getCount() > 1) {
+                        cartItem.setCount(cartItem.getCount() - 1);
+                        itemClickListener.onItemUpdate(cartItem);
+                    }
+                });
+            }
         }
     }
 
